@@ -1,54 +1,54 @@
-# Projekty Programistyczne z Liceum - Język C++
+# High School Programming Projects - C++ Language
 
-Ten zbiór projektów zawiera programy napisane w języku C++ w ramach zajęć w liceum. Każdy projekt ilustruje różne koncepcje programistyczne i algorytmiczne.
+This collection of projects contains programs written in the C++ language as part of high school coursework. Each project illustrates various programming and algorithmic concepts.
 
-## Lista Projektów
+## Project List
 
-* **caesar\_cipher.cpp:** Implementacja szyfru Cezara, prostej metody szyfrowania polegającej na przesunięciu każdej litery tekstu jawnego o stałą liczbę pozycji w alfabecie.
-* **decimal\_converter.cpp:** Program do konwersji liczb między różnymi systemami liczbowymi (np. dziesiętnym, binarnym, szesnastkowym).
-* **fraction\_operations.cpp:** Implementacja podstawowych operacji arytmetycznych na ułamkach (dodawanie, odejmowanie, mnożenie, dzielenie).
-* **merge\_sort\_algorithm.cpp:** Implementacja algorytmu sortowania przez scalanie (Merge Sort), wydajnej metody sortowania opartej na strategii "dziel i zwyciężaj".
-* **palindrome\_checker.cpp:** Program sprawdzający, czy podane słowo, fraza lub liczba jest palindromem (czyta się tak samo od przodu i od tyłu).
-* **prime\_check\_related.cpp:** Zbiór funkcji lub programów związanych ze sprawdzaniem własności liczb pierwszych, takich jak testowanie pierwszości lub generowanie liczb pierwszych.
-* **prime\_checker.cpp:** Program, który determinuje, czy podana liczba jest liczbą pierwszą.
-* **prime\_test.cpp:** Prawdopodobnie inny wariant programu do testowania pierwszości liczb lub zestaw testów sprawdzających działanie algorytmu sprawdzania liczb pierwszych.
-* **quadratic\_roots.cpp:** Program obliczający pierwiastki rzeczywiste i zespolone równania kwadratowego w postaci $ax^2 + bx + c = 0$.
-* **random\_array\_sum.cpp:** Program, który tworzy tablicę wypełnioną losowymi liczbami i oblicza sumę jej elementów.
-* **randomize\_sort\_and\_merge.cpp:** Program, który demonstruje losowanie elementów do tablic, sortowanie tych tablic (prawdopodobnie przy użyciu sortowania bąbelkowego lub innego prostego algorytmu) oraz scalanie dwóch posortowanych tablic w jedną.
-* **star\_triangle.cpp:** Program rysujący na ekranie różne wzory trójkątów złożonych ze znaków gwiazdki (`*`) na podstawie danych wejściowych (np. rozmiaru, typu trójkąta).
-* **temperature\_analysis.cpp:** Program do analizowania danych dotyczących temperatury, potencjalnie obliczający statystyki takie jak średnia, minimum, maksimum temperatur z danego zestawu danych.
-* **train\_cargo\_query.cpp:** Program do zarządzania informacjami o pociągach i ich ładunkach, umożliwiający wyszukiwanie, filtrowanie lub wyświetlanie informacji na podstawie określonych kryteriów.
+* **caesar\_cipher.cpp:** Implementation of the Caesar cipher, a simple encryption method that shifts each letter of the plaintext by a fixed number of positions down the alphabet.
+* **decimal\_converter.cpp:** A program to convert numbers between different numeral systems (e.g., decimal, binary, hexadecimal).
+* **fraction\_operations.cpp:** Implementation of basic arithmetic operations on fractions (addition, subtraction, multiplication, division).
+* **merge\_sort\_algorithm.cpp:** Implementation of the Merge Sort algorithm, an efficient sorting method based on the "divide and conquer" strategy.
+* **palindrome\_checker.cpp:** A program that checks whether a given word, phrase, or number is a palindrome (reads the same forwards and backwards).
+* **prime\_check\_related.cpp:** A collection of functions or programs related to checking the properties of prime numbers, such as primality testing or generating prime numbers.
+* **prime\_checker.cpp:** A program that determines whether a given number is a prime number.
+* **prime\_test.cpp:** Likely another variant of a program for testing the primality of numbers or a set of tests verifying the operation of a prime number checking algorithm.
+* **quadratic\_roots.cpp:** A program that calculates the real and complex roots of a quadratic equation in the form $ax^2 + bx + c = 0$.
+* **random\_array\_sum.cpp:** A program that creates an array filled with random numbers and calculates the sum of its elements.
+* **randomize\_sort\_and\_merge.cpp:** A program that demonstrates randomizing elements into arrays, sorting these arrays (likely using bubble sort or another simple algorithm), and merging two sorted arrays into one.
+* **star\_triangle.cpp:** A program that draws various patterns of triangles made of asterisk characters (`*`) on the screen based on input data (e.g., size, triangle type).
+* **temperature\_analysis.cpp:** A program for analyzing temperature data, potentially calculating statistics such as the average, minimum, and maximum temperatures from a given dataset.
+* **train\_cargo\_query.cpp:** A program for managing information about trains and their cargo, allowing for searching, filtering, or displaying information based on specific criteria.
 
-## Struktura Projektu
+## Project Structure
 
-Każdy projekt znajduje się w osobnym pliku źródłowym C++ (`.cpp`). Pliki te zawierają implementację opisanego problemu programistycznego.
+Each project is located in a separate C++ source file (`.cpp`). These files contain the implementation of the described programming problem.
 
-## Jak Używać
+## How to Use
 
-Aby skompilować i uruchomić te programy, będziesz potrzebować kompilatora języka C++ (np. g++).
+To compile and run these programs, you will need a C++ compiler (e.g., g++).
 
-1.  **Otwórz terminal lub wiersz poleceń.**
-2.  **Przejdź do katalogu zawierającego pliki `.cpp`.**
-3.  **Skompiluj wybrany plik używając kompilatora g++:**
+1.  **Open a terminal or command prompt.**
+2.  **Navigate to the directory containing the `.cpp` files.**
+3.  **Compile the desired file using the g++ compiler:**
     ```bash
-    g++ nazwa_pliku.cpp -o nazwa_wykonywalnego
+    g++ filename.cpp -o executable_name
     ```
-    Przykład dla `caesar_cipher.cpp`:
+    Example for `caesar_cipher.cpp`:
     ```bash
     g++ caesar_cipher.cpp -o caesar_cipher
     ```
-4.  **Uruchom skompilowany program:**
+4.  **Run the compiled program:**
     ```bash
-    ./nazwa_wykonywalnego
+    ./executable_name
     ```
-    Przykład:
+    Example:
     ```bash
     ./caesar_cipher
     ```
-5.  **Postępuj zgodnie z instrukcjami wyświetlanymi przez program (jeśli są wymagane).**
+5.  **Follow the instructions displayed by the program (if required).**
 
-## Dodatkowe Informacje
+## Additional Information
 
-Te projekty stanowią zapis moich pierwszych doświadczeń z programowaniem w języku C++ w trakcie nauki w szkole średniej. Każdy z nich pomógł mi w zrozumieniu podstawowych i bardziej zaawansowanych koncepcji programistycznych.
+These projects represent a record of my initial experiences with programming in the C++ language during my high school education. Each one helped me understand basic and more advanced programming concepts.
 
 ---
